@@ -1,0 +1,38 @@
+.section-experiences {
+background-color: var(--main-color);
+    color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1em;
+    text-align:center
+}
+
+.experience-text {
+    display:flex;
+    align-items:center
+}
+
+.experiences-info{
+    background-color: var(--secondary-color);
+    color:var(--main-color);
+    padding:0.6em
+}
+
+.experience-title {
+    border:2px solid var(--secondary-color);
+    padding:0.5em
+}
+
+.experience-list{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:2em;
+    margin-bottom:2em
+}
+.experience-list li {
+    width:20%
+}

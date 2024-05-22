@@ -1,0 +1,30 @@
+.diploms {
+    margin:0;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.diploms-section {
+    color: white;
+    background-color: var(--secondary-color);
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1em;   
+    text-align:center
+}
+
+.diploms-title {
+    border: 2px solid var(--main-color);
+    padding:0.5em
+
+}
+
+.diploms-info {
+    background-color: var(--main-color);
+    color :  var(--secondary-color);
+    padding:0.6em
+}
