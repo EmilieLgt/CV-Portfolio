@@ -12,8 +12,8 @@ function Presentation() {
           <h2 className="title-pres">Développeuse Web Junior - Fullstack</h2>
           <p className="desc-pres">
             Ancienne enseignante en science politique,  je me suis reconvertie
-            cette année dans le développement web. <br />
-            Je suis actuellement à la recherche d’une <strong>alternance en tant que
+            dans le développement web. <br />
+            Je recherche actuellement une <strong>entreprise pour une alternance en tant que
             développeuse fullstack, à Lille et ses environs</strong> 
           </p>
         </div>
