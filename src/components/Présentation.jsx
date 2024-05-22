@@ -5,7 +5,7 @@ function Presentation() {
     <>
       <div className="section-presentation">
         <div>
-          <img className="photo-pres" src="../../public/photo-cv-rr.png"></img>
+          <img className="photo-pres" src="../../../photo-cv-rr.png"></img>
         </div>
         <div>
           <h1>Emilie Lingat</h1>
