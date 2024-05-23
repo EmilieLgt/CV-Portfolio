@@ -13,7 +13,7 @@ function App() {
         <a href="#presentation" offset={-70} duration={500} className="link-nav">
           <div className="navBarre-square">Intro</div>
         </a>
-        <a href="#projects" offset={-70} duration={500} className="link-nav">
+        <a href="#my-projects" offset={-70} duration={500} className="link-nav">
           <div className="navBarre-square">Projets</div>
         </a>
         <a href="#competences" offset={-70} duration={500} className="link-nav">
@@ -34,7 +34,7 @@ function App() {
         <div id="presentation" className="element">
           <Présentation />
         </div>
-        <div id="projects" className="element">
+        <div id="my-projects" className="element">
           <ProjectsList />
         </div>
         <div id="competences" className="element">

@@ -14,7 +14,8 @@
     justify-content: center;
     align-items: center;
     padding:1em;   
-    text-align:center
+    text-align:center;
+    height:100vh
 }
 
 .diploms-title {
@@ -27,4 +28,33 @@
     background-color: var(--main-color);
     color :  var(--secondary-color);
     padding:0.6em
+}
+
+@media screen and (max-width:  992px) {
+
+    .diploms {
+        margin:0;
+        display:flex; 
+        flex-direction: column;
+
+    }
+    
+    .diploms-title {
+
+        margin:0;
+        width:85vw
+    
+    }
+    
+    .diploms-info {
+        margin:0;
+        width:85vw
+    }
+
+    .diploms-section {
+      gap :1.2em;
+      height:fit-content;
+    }
+    
+
 }

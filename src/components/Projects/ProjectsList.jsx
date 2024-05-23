@@ -38,7 +38,7 @@ function ProjectsList() {
     },
   ];
 
-  return (<div className="projects"><h3>Mes projets</h3>
+  return (<div className="projects"><h3>Projets</h3>
     <div className="projects-section">
      
       

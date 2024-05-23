@@ -15,7 +15,7 @@ ol {
   background-color: rgb(128, 69, 173);
   color: white;
   font-size: 0.8em;
-  padding:0.3em
+  padding: 0.3em;
 }
 
 .project-list-competences {
@@ -24,17 +24,16 @@ ol {
   justify-content: center;
 }
 .projects {
-  background-color:  var(--secondary-color);
-  height:120vh;
-  color:white;
+  background-color: var(--secondary-color);
+  height: 120vh;
+  color: white;
   border-radius: 0px;
   padding-top: 0.5em;
-  padding-bottom:1em;
-  display:flex;
+  padding-bottom: 1em;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 .projects-section {
   padding: 2em;
@@ -50,12 +49,11 @@ ol {
 .one-project {
   padding-bottom: 2em;
   width: 30%;
-
 }
 
 .one-project:hover {
   background-color: var(--main-color);
-  color:var(--secondary-color)
+  color: var(--secondary-color);
 }
 
 .buttons-project {
@@ -63,7 +61,7 @@ ol {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  margin-top:1em
+  margin-top: 1em;
 }
 
 button {
@@ -78,11 +76,34 @@ button {
   transition: 0.3s;
   box-shadow: 5px 5px 0px 0px rgba(51, 51, 51, 1);
   background-color: var(--main-color);
-  margin-top:2em
+  margin-top: 2em;
 }
 
 button:hover {
   box-shadow: 0 0 #333;
   color: #fff;
   background-color: #461563;
+}
+
+@media screen and (max-width: 992px) {
+  .projects-section {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .projects {
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 0px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 370vh;
+  }
+
+  .one-project {
+    padding-bottom: 2em;
+    width: 90%;
+  }
 }
