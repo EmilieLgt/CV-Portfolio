@@ -14,7 +14,7 @@ function Presentation() {
             Ancienne enseignante en science politique,  je me suis reconvertie
             dans le développement web. <br />
             Je recherche actuellement une <strong>entreprise pour une alternance en tant que
-            développeuse fullstack, à Lille et ses environs</strong> 
+            développeuse web fullstack, à Lille et ses environs</strong> 
           </p>
         </div>
       </div>
