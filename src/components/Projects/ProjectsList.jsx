@@ -11,7 +11,7 @@ function ProjectsList() {
       desc:"Site web statique responsive du groupe de musique 'Samurai', de l'univers du jeu vidéo Cyberpunk. Affichage des informations du groupes, possibilité d'écouter des playlists, de tirer les dates de tournées selon les lieux ...",
       tech: ["HTML5", "CSS", "JAVASCRIPT"],
       url: "https://emilielgt.github.io/SiteGroupeSamurai/",
-      img: "./public/project1.png",
+      img: "../../project1.png",
       git :"https://github.com/EmilieLgt/SiteGroupeSamurai.git"
     },
     {
@@ -22,7 +22,7 @@ function ProjectsList() {
       title: "Application e-commerce 'feet & fun' ",
       tech: ["REACT", "CSS", "NODE.JS", "API"],
       url: "https://feet-n-fun.vercel.app/",
-      img: "./public/project2.png",
+      img: "../../project2.png",
       git :"https://github.com/WildCodeSchool-2024-02/JS-LILLE-0224-P2-G2-feet-n-fun.git"
     },
     {
@@ -33,7 +33,7 @@ function ProjectsList() {
       desc:"Projet développé pour le Protojam de la Wild Code School sur le thème 'Nature et déconnexion'. Nous sommes parties du fait que nous passions beaucoup (beaucoup) de temps devant nos écrans et avons proposé un catalogue d'activités possibles autour de nous (métropole lilloise) selon notre temps disponible.",
       tech: ["REACT", "CSS", "NODE.JS"],
       url: "https://lille-au-vert.vercel.app/",
-      img: "./public/project3.png",
+      img: "../../project3.png",
       git:"https://github.com/EmilieLgt/Lille-au-vert.git"
     },
   ];
