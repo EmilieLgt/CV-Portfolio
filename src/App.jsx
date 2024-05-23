@@ -11,7 +11,7 @@ function App() {
     <div className="whole-page">
       <div className="section-nav">
         <a href="#presentation" offset={-70} duration={500} className="link-nav">
-          <div className="navBarre-square">Intro</div>
+          <div className="navBarre-square">Présentation</div>
         </a>
         <a href="#my-projects" offset={-70} duration={500} className="link-nav">
           <div className="navBarre-square">Projets</div>
