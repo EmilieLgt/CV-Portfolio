@@ -25,6 +25,7 @@ button:hover {
   cursor: pointer;
 }
 
+
 h1 {
   color: var(--main-color);
   font-size: 4em;
@@ -39,8 +40,10 @@ h3 {
 #root {
   --main-color: #f1f0d5;
   --secondary-color: #03010b;
-  --third-color: rgb(117, 98, 194);
+  --third-color: #7562c2;
 }
+
+
 
 body {
   font-family: "Montserrat";
@@ -109,13 +112,14 @@ body {
 /* NavBar */
 .navBarre-square {
   height: 17vh;
-  width: 15vh;
+  width: 17vh;
   background-color: var(--secondary-color);
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 3px var(--main-color) solid;
+  border-bottom: 1px var(--main-color) solid;
+  border-top: 1px var(--main-color) solid;
 }
 .section-nav {
   display: flex;
@@ -126,14 +130,32 @@ body {
   height: 100vh;
 }
 .navBarre-square:hover {
-  background-color: var(--main-color);
-  color: var(--secondary-color);
+
+background-color: var(--main-color);
+color:var(--secondary-color);
   cursor: pointer;
 }
 
-.navBarre-square:active {
-  background-color: var(--main-color);
-  color: var(--secondary-color);
+
+
+
+.active {
+
+  background-attachment: cover;
+  background-color: none;
+  color: var(--main-color); 
+}
+
+.navBarre-square.active {
+  background-image: url("../public/elevator6.png");
+  background-size:cover;
+  background-color: none;
+  color: var(--main-color); 
+}
+
+.link-nav.active {
+
+  background-attachment: cover;
 }
 
 .link-nav:hover {

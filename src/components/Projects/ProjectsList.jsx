@@ -38,15 +38,52 @@ function ProjectsList() {
     },
   ];
 
-  return (<div className="projects"><h3>Projets</h3>
-    <div className="projects-section">
+  const soloProjects = [{
+    id: 0,
+    month: "mai 2023",
+    time : "",
+    title: "Site de recettes Gluten-free",
+    desc:"Site responsive de recettes réalisé avec l'API Edamam (possibilités de filtrer différents régimes alimentaires, types de repas ou ingrédients)",
+    tech: ["REACT", "CSS", "NODE.JS"],
+    url: "https://gluten-free-recipes-eight.vercel.app/",
+    img: "../../project4.png",
+    git:"https://github.com/EmilieLgt/gluten-free-recipes"
+  },
+  {
+    id: 1,
+    month: "février 2023",
+    time : "",
+    title: "Valoroulette",
+    desc:"Vos parties de Valorant en ranked deviennent insupportables ? Ce site vous aide à vous détendre, en vous permettant de choisir un agent au hasard pour une unranked (qui se passera surement très mal).",
+    tech: ["REACT", "CSS"],
+    url: "https://valo-roulette-5830s03b9-emilielgts-projects.vercel.app/",
+    img: "../../project6.png",
+    git:"https://github.com/EmilieLgt/ValoRoulette"
+  },]
+  
+
+  return (<> <div className="projects">
+  <h3>Projets collectifs</h3>
+  <div className="projects-section">
      
       
       {projects.map((project) => (
         <Projects key={project.id} project={project} />
       ))}
+     
     </div>
+  
     </div>
+    <div className="projects">
+    <h3>Projets solos</h3>
+    <div className="projects-section">
+      {soloProjects.map((project) => (
+       
+        <Projects key={project.id} project={project} />
+      ))}
+      </div>
+      </div>
+      </>
   );
 }
 
