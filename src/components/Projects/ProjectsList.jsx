@@ -56,7 +56,7 @@ function ProjectsList() {
     title: "Valoroulette",
     desc:"Vos parties de Valorant en ranked deviennent insupportables ? Ce site vous aide à vous détendre, en vous permettant de choisir un agent au hasard pour une unranked (qui se passera surement très mal).",
     tech: ["REACT", "CSS"],
-    url: "https://valo-roulette-5830s03b9-emilielgts-projects.vercel.app/",
+    url: "https://valo-roulette.vercel.app/",
     img: "../../project6.png",
     git:"https://github.com/EmilieLgt/ValoRoulette"
   },]
