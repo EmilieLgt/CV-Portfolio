@@ -25,7 +25,6 @@ button:hover {
   cursor: pointer;
 }
 
-
 h1 {
   color: var(--main-color);
   font-size: 4em;
@@ -42,8 +41,6 @@ h3 {
   --secondary-color: #03010b;
   --third-color: #7562c2;
 }
-
-
 
 body {
   font-family: "Montserrat";
@@ -110,6 +107,18 @@ body {
 }
 
 /* NavBar */
+
+.burger-close-button {
+  display: none;
+}
+
+.burger-open-button {
+  display: none;
+}
+
+.nav-mobile {
+  display: none;
+}
 .navBarre-square {
   height: 17vh;
   width: 17vh;
@@ -130,31 +139,25 @@ body {
   height: 100vh;
 }
 .navBarre-square:hover {
-
-background-color: var(--main-color);
-color:var(--secondary-color);
+  background-color: var(--main-color);
+  color: var(--secondary-color);
   cursor: pointer;
 }
 
-
-
-
 .active {
-
   background-attachment: cover;
   background-color: none;
-  color: var(--main-color); 
+  color: var(--main-color);
 }
 
 .navBarre-square.active {
   background-image: url("../public/elevator6.png");
-  background-size:cover;
+  background-size: cover;
   background-color: none;
-  color: var(--main-color); 
+  color: var(--main-color);
 }
 
 .link-nav.active {
-
   background-attachment: cover;
 }
 
@@ -163,22 +166,56 @@ color:var(--secondary-color);
 }
 
 @media screen and (max-width: 992px) {
+  /* Nav */
+
+  .nav-mobile {
+    display: initial;
+    height: 100%;
+    position: fixed;
+    top: 100px;
+  }
+  .section-nav {
+    display: none;
+  }
+  .burger-close-button {
+    display: initial;
+  }
+
+  .body-homepage {
+    position: relative;
+  }
+
+  .burger-open-button {
+    display: initial;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+  }
+  .element-nav-barre-mobile {
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    width: 100%;
+    padding: 2em;
+    font-size: 1.2em;
+    border-bottom: 2px solid var(--main-color);
+  }
+
+  .main {
+    margin: 0;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+  }
+
+  /* Présentation */
   h1 {
     font-size: 3em;
   }
 
   .desc-pres {
     font-size: 0.8em;
-  }
-  .section-nav {
-    display: none;
-  }
-  .main {
-    margin: 0;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
   }
   .section-presentation {
     background-color: var(--secondary-color);
@@ -196,10 +233,13 @@ color:var(--secondary-color);
     height: 50vw;
     border: solid 4px var(--main-color);
   }
+
+  /*Contact */
   .contact-section {
     display: flex;
     flex-direction: column;
-    height: 30vh;
-    font-weight: normal
+    height: 50vh;
+    font-weight: normal;
+    font-size: 0.9em;
   }
 }

@@ -25,7 +25,7 @@ ol {
 }
 .projects {
   background-color: var(--secondary-color);
-  height: 120vh;
+  height: max-content;
   color: white;
   border-radius: 0px;
   padding-top: 0.5em;
@@ -99,7 +99,7 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 370vh;
+    height: max-content;
   }
 
   .one-project {
